@@ -1,0 +1,36 @@
+header {
+  background-color: var(--bg-color);
+  margin: auto;
+}
+
+.dataList {
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  color: white;
+  padding: 1rem;
+  list-style: none;
+  font-size: 1rem;
+}
+
+.dataList li {
+  display: flex;
+  align-items: center;
+}
+
+.dataList li a {
+  text-decoration: none;
+  color: white;
+}
+
+svg {
+  margin-right: 0.5rem;
+}
+
+@media (max-width: 940px) {
+  header {
+    display: none;
+  }
+}

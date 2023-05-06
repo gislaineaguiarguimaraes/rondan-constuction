@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+/*Estilo para que o container das minhas rotas tenha 75% da altura da tela min */
+.min-height {
+  min-height: 75vh;
+}
+
+.max-width {
+  width: 1200px;
+}

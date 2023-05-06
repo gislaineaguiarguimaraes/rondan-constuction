@@ -1,0 +1,37 @@
+nav {
+  display: flex;
+  padding: 1rem;
+  background: whitesmoke;
+}
+.logo img {
+  height: 80px;
+  width: 140px;
+}
+
+.navList {
+  margin: 1rem;
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.navList li {
+  margin-right: 2rem;
+}
+
+.navList li:last-child {
+  margin-right: 0;
+}
+
+.navList li a {
+  display: block;
+  color: var(--text-dark);
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.2s ease-in-out;
+}
+
+.navList li a:hover {
+  color: #f5a96e;
+  transform: scale(1.1);
+}

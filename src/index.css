@@ -1,13 +1,25 @@
-body {
+/*Estilo css global*/
+
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap");
+
+* {
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  /*Border-box serve para os inputs não ultrapassarem a area maxima da div que eles estão*/
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html,
+body,
+#root {
+  background-color: #efefef;
+  height: 100%;
+}
+
+#root {
+  --text-dark: #545555;
+  --text-light: #f5a96e;
+  --bg-color: #f5a96e;
+  --font-title: font-family: 'PT Sans', sans-serif;;
 }
