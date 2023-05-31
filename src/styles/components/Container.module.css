@@ -3,10 +3,11 @@
   justify-content: space-between;
   margin: 0 auto;
   flex-wrap: wrap;
+  position: relative;
 }
 /*Estilo para que o container das minhas rotas tenha 75% da altura da tela min */
 .min-height {
-  min-height: 75vh;
+  min-height: 85vh;
 }
 
 .max-width {

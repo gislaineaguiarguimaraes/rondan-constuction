@@ -1,6 +1,5 @@
 import styles from "../../styles/components/Header.module.css";
 import { Link } from "react-router-dom";
-
 import { MdLocationOn, MdMail } from "react-icons/md";
 import { FaPhoneAlt, FaFacebookSquare } from "react-icons/fa";
 

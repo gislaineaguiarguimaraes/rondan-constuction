@@ -1,9 +1,9 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import Home from "./pages/Home";
-import Container from "./components/layout/Container";
 import Navbar from "./components/layout/Navbar";
 import Header from "./components/layout/Header";
+import Footer from "./components/layout/Footer";
 
 function App() {
   return (
@@ -11,11 +11,12 @@ function App() {
       <Router>
         <Header />
         <Navbar />
-        <Container customClass="min-height">
-          <Routes>
-            <Route path="/" exact element={<Home />} />
-          </Routes>
-        </Container>
+
+        <Routes>
+          <Route path="/" exact element={<Home />} />
+        </Routes>
+
+        <Footer />
       </Router>
     </div>
   );

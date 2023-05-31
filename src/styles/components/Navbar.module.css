@@ -1,11 +1,15 @@
 nav {
   display: flex;
-  padding: 1rem;
+
   background: whitesmoke;
+  position: sticky;
+  top: 0;
+  z-index: 5;
 }
+
 .logo img {
-  height: 80px;
-  width: 140px;
+  height: 120px;
+  width: 200px;
 }
 
 .navList {
@@ -17,6 +21,7 @@ nav {
 
 .navList li {
   margin-right: 2rem;
+  text-transform: uppercase;
 }
 
 .navList li:last-child {
